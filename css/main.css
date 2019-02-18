@@ -531,6 +531,11 @@ form .input-group .form-control {
 	justify-content: center;
 	line-height: 1.25;
 	padding: 15px;
+	width: 100%;
+}
+
+.portfolio-section .item-info .text-holder {
+	width: 100%;
 }
 
 .portfolio-section .item-info h2 {
