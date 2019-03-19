@@ -1,0 +1,23 @@
+@mixin v-align($va-height: 100%, $va-direction: middle, $va-pseudo: after) {
+	white-space: nowrap;
+	text-align: center;
+
+	&:#{$va-pseudo} {
+		content: '';
+		display: inline-block;
+		vertical-align: $va-direction;
+		width: 0;
+		min-height: $va-height;
+	}
+
+	> * {
+		white-space: normal;
+		display: inline-block;
+		vertical-align: $va-direction;
+	}
+}
+
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
