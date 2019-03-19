@@ -2,6 +2,7 @@ jQuery(function() {
 	initMasonry();
 	initIsotope();
 	initFlickity();
+	//initParallax();
 });
 
 function initMasonry() {
@@ -46,4 +47,8 @@ function initFlickity() {
 	  contain: true,
 	  pageDots: false
 	});
+}
+
+function initParallax() {
+	$('.parallax-window').parallax({});
 }
