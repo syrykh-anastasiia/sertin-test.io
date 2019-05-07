@@ -399,6 +399,8 @@ form .input-group .form-control
 {
     width: 1%;
 
+    text-align: left;
+
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
         flex: 1 1 auto;
@@ -685,6 +687,9 @@ form .input-group .form-control
 
 .portfolio-section .item-info .text-holder
 {
+    overflow-x: hidden;
+    overflow-y: auto;
+
     width: 100%;
 }
 
@@ -1385,7 +1390,6 @@ form .input-group .form-control
     {
         padding: 24px 23px 19px;
 
-        text-align: left;
         letter-spacing: 2px;
     }
 
