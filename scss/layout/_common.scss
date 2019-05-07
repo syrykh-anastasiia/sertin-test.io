@@ -212,11 +212,11 @@ form {
 			&:not(.sm) {
 				flex: 1 1 auto;
 				width: 1%;
+				text-align: left;
 
 				@media(min-width: $desktop) {
 					padding: 24px 23px 19px;
 					letter-spacing: 2px;
-					text-align: left;
 				}
 			}
 
@@ -452,6 +452,8 @@ form {
 
 		.text-holder {
 			width: 100%;
+			overflow-y: auto;
+			overflow-x: hidden;
 		}
 
 		h2 {
