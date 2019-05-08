@@ -691,6 +691,16 @@ form {
 			min-width: 231px;
 		}
 	}
+
+	.card-columns {
+		@media(min-width: $phone) {
+			column-count: 2;
+		}
+
+		@media(min-width: $desktop) {
+			column-count: 3;
+		}
+	}
 }
 
 .card {
