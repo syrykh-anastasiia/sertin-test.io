@@ -1,5 +1,5 @@
 jQuery(function() {
-	initMasonry();
+	//initMasonry();
 	initIsotope();
 	initFlickity();
 	//initParallax();

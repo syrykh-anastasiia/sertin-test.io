@@ -1339,6 +1339,15 @@ form .input-group .form-control
     color: #f48e0b;
 }
 
+@media (min-width: 576px)
+{
+    .blog-section .card-columns
+    {
+        -webkit-column-count: 2;
+                column-count: 2;
+    }
+}
+
 @media (min-width: 768px)
 {
     .visual-section
@@ -1435,6 +1444,12 @@ form .input-group .form-control
     .blog-section .load-btn
     {
         min-width: 231px;
+    }
+
+    .blog-section .card-columns
+    {
+        -webkit-column-count: 3;
+                column-count: 3;
     }
 
     .card .blockquote:after
